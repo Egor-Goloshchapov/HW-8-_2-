@@ -38,5 +38,6 @@ console.log(cards);
 
 let update = cards.indexOf("Карточка-5");
 if (index !== -1) {
-    cards.splice(cards[update] = "Карточка-10");
+    cards.splice(3 , 1 , "Карточка-10");
 }
+console.log(cards);
